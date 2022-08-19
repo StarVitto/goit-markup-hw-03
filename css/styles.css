@@ -53,7 +53,13 @@ img {
     margin-right: 50px;}
 .main-contact:not(:last-child) {
     margin-right: 50px;
-align-items: center;}
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;}
 .page-logo {
     margin-right: 93px;
     padding-top: 23px;
@@ -130,9 +136,11 @@ align-items: center;}
     background-color: var(--heder-footer);}
 .hero-title {
     color: var(--primary-bg-color);
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
+    line-height: 60px;
     text-align: center;
     padding: 200px 252px 30px 252px;
     letter-spacing: 0.06em;
@@ -265,7 +273,7 @@ align-items: center;}
     width: 100%;
     height: 252px;}
 .footer-container {
-    padding: 60px 0;
+    padding-top: 60px;
     padding-bottom: 60px;}
 .footer-list {
     font-style: normal;
